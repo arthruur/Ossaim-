@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/OSSAIM/static/css/main.99cea16d.css",
+    "main.js": "/OSSAIM/static/js/main.ceca3866.js",
+    "static/media/meal.mp4": "/OSSAIM/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
+    "static/media/menu.png": "/OSSAIM/static/media/menu.a8287c67809afebcc280.png",
+    "static/media/welcome.png": "/OSSAIM/static/media/welcome.bf016872dea9e2e5ddb9.png",
+    "static/media/bg.png": "/OSSAIM/static/media/bg.e385f00b05ab471ea84f.png",
+    "static/media/overlaybg.png": "/OSSAIM/static/media/overlaybg.165362eea72d1614ae28.png",
+    "static/media/spoon.svg": "/OSSAIM/static/media/spoon.b2cba48ac1155f9d6a4efac7be99c11d.svg",
+    "static/media/award05.png": "/OSSAIM/static/media/award05.48a7f5206184009dcb29.png",
+    "static/media/G.png": "/OSSAIM/static/media/G.361a4bc44b59b55abeda.png",
+    "static/media/award01.png": "/OSSAIM/static/media/award01.361a4bc44b59b55abeda.png",
+    "static/media/award02.png": "/OSSAIM/static/media/award02.361a4bc44b59b55abeda.png",
+    "static/media/chef.png": "/OSSAIM/static/media/chef.361a4bc44b59b55abeda.png",
+    "static/media/findus.png": "/OSSAIM/static/media/findus.361a4bc44b59b55abeda.png",
+    "static/media/gallery01.png": "/OSSAIM/static/media/gallery01.361a4bc44b59b55abeda.png",
+    "static/media/gallery02.png": "/OSSAIM/static/media/gallery02.361a4bc44b59b55abeda.png",
+    "static/media/gallery03.png": "/OSSAIM/static/media/gallery03.361a4bc44b59b55abeda.png",
+    "static/media/gallery04.png": "/OSSAIM/static/media/gallery04.361a4bc44b59b55abeda.png",
+    "static/media/laurels.png": "/OSSAIM/static/media/laurels.361a4bc44b59b55abeda.png",
+    "static/media/logo.png": "/OSSAIM/static/media/logo.361a4bc44b59b55abeda.png",
+    "static/media/award03.png": "/OSSAIM/static/media/award03.3f7ee934c17dccbd5fc6.png",
+    "static/media/sign.png": "/OSSAIM/static/media/sign.9bf0bd90ad4caa17991f.png",
+    "index.html": "/OSSAIM/index.html",
+    "main.99cea16d.css.map": "/OSSAIM/static/css/main.99cea16d.css.map",
+    "main.ceca3866.js.map": "/OSSAIM/static/js/main.ceca3866.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99cea16d.css",
+    "static/js/main.ceca3866.js"
+  ]
+}
