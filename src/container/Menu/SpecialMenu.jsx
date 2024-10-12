@@ -10,6 +10,8 @@ import Legislações from './Legislações';
 import Tese from './Tese';
 import Pesquisa from './Pesquisa';
 import Cartografias from './Cartografias';
+import ManuaisInternacionais from './ManuaisInternacionais'; 
+import Observatorio from './Observatório';
 
 const SpecialMenu = () => {
   const [activeTab, setActiveTab] = useState('dados-publicos');
@@ -31,11 +33,11 @@ const SpecialMenu = () => {
       case 'cartografias':
           return <div> <Cartografias /></div>
       case 'observatorio-ossaim':
-        return <div>Nessa aba, explicar a proposta de automação para o processo de consulta dos artigos e leis.</div>;
+        return <div> <Observatorio /></div>;
       case 'nacional': 
         return <div> Essa aba fornece acesso ao manual: Protocolo para Diagnóstico Etiológico da Deficiência Intelectual</div>
       case 'internacional': 
-        return <div> Essa aba fornece acesso aos manuais: AAIDD, DSM, CID, CIF </div>
+        return <div> <ManuaisInternacionais /> </div>
       case 'direitos-humanos': 
         return <div> <Legislações />.</div>
       case 'principais-resultados': 
@@ -45,7 +47,7 @@ const SpecialMenu = () => {
       case 'bibliografia': 
         return <div>Ao fim da pesquisa aqui ficaram as referências bibliográficas.</div>
       case 'linha-do-tempo': 
-        return <div> A linha do tempo ainda está sendo adaptada para essa versão do Ossaim, volte em breve!</div>
+        return <div> <h1 style={{ textAlign: 'center', marginBottom: '20px', fontSize: '24px', color: '#f8ebcd' }}>Futuramente existirão outras linhas do tempo, volte em breve!</h1> <LinhaDoTempo /> </div>
       case 'pesquisa': 
         return<div> <Pesquisa /> </div>
 

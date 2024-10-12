@@ -10,7 +10,7 @@ const PrincipaisResultados = () => {
   const renderResultadosContent = () => {
     return (
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRiCA1bQKLMmrjF-CVvfEz3jrCLK2lCOXTfKpLIHIoh0dIh202DC8mdZMbJFoEM0lZivwtlHd-qFwYK/pubhtml?widget=true&amp;headers=false"
-    style={{ width: '1100px', height: '600px' }}
+    style={{ width: '1400px', height: '600px' }}
     >
 
     </iframe>
