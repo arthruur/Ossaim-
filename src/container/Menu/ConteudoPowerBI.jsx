@@ -11,8 +11,8 @@ const ConteudoPowerBI = () => {
     return (
       <iframe
         title="Relatório Power BI"
-        src="https://app.powerbi.com/reportEmbed?reportId=38ecb4c2-aaa0-4fb1-b44d-f980f4c65777&autoAuth=true&ctid=696d19e4-fc75-4e85-937e-e53e06ae5f3b"
-        style={{ width: '1400px', height: '600px' }}
+        src="https://app.powerbi.com/view?r=eyJrIjoiMTAyOTBlNDUtMjNhOC00MjIyLWFiYTgtOTRlYzVkNDIzMjU4IiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9"
+        style={{ width: '1300px', height: '800px' }}
       ></iframe>
     );
   };

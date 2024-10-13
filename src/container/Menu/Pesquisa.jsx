@@ -11,7 +11,7 @@ const Pesquisa = () => {
     return (
     
     <iframe src="https://drive.google.com/file/d/1KbqyZDITLvsbdV62Z9lZMmcjfJaBnYdH/preview"
-    style={{ width: '1400px', height: '600px' }}
+    style={{ width: '1000px', height: '600px' }}
     >
 
     </iframe>

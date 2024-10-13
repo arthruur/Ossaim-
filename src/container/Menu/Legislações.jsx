@@ -11,7 +11,7 @@ const Legislação = () => {
     return (
     
     <iframe src="https://drive.google.com/file/d/1WB-dIWFs8iWIJpfaMnkAWdzjsT8S2JLg/preview"
-    style={{ width: '1400px', height: '600px' }}
+    style={{ width: '1100px', height: '600px' }}
     >
 
     </iframe>

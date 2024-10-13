@@ -9,7 +9,7 @@ const Cartografias = () => {
 
   const renderResultadosContent = () => {
     return (
-      <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '20px' }}>
+      <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '20px' }}>
         <div style={{ marginBottom: '20px' }}>
           <iframe
             src="https://drive.google.com/file/d/1jrs0-QLESkyUydXQ75CuBVQ2yK8NjtlH/preview"

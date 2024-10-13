@@ -425,61 +425,58 @@ const LinhaDoTempo = () => {
                 ))}
             </div>
 
-            {selectedEvento && (
-                <div style={{
-                    position: 'absolute',
-                    background: 'rgba(255, 255, 255, 0.9)',
-                    border: '1px solid #E3A237',
-                    borderRadius: '8px',
-                    padding: '20px',
-                    marginTop: '10px',
-                    zIndex: 10,
-                    width: '300px',
-                    boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
-                }}>
-                    <h3 style={{ marginBottom: '20px' }}>{selectedEvento.descricao}</h3>
-                    <p style={{ marginBottom: '10px' }}><strong>Autores:</strong> {selectedEvento.autores}</p>
-                    <p style={{ marginBottom: '10px' }}><strong>Publicação:</strong> {selectedEvento.publicacao}</p>
-                    <p style={{ marginBottom: '10px' }}><strong>Tipo:</strong> {selectedEvento.tipo}</p>
-                    <button onClick={openMoreInfo} style={{
-                        background: '#E3A237',
-                        color: '#fff',
-                        border: 'none',
-                        padding: '10px 15px',
-                        borderRadius: '5px',
-                        cursor: 'pointer',
-                        marginTop: '10px',
-                        marginRight: '5px'
+            {/* Painel de informações abaixo da linha do tempo */}
+            <div style={{ marginTop: '40px' }}>
+                {selectedEvento && (
+                    <div style={{
+                        background: 'rgba(255, 255, 255, 0.9)',
+                        border: '1px solid #E3A237',
+                        borderRadius: '8px',
+                        padding: '20px',
+                        width: '100%',
+                        boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
                     }}>
-                        Mais informações
-                    </button>
-                    <button onClick={closePanel} style={{
-                        background: '#E3A237',
-                        color: '#fff',
-                        border: 'none',
-                        padding: '10px 15px',
-                        borderRadius: '5px',
-                        cursor: 'pointer',
-                        marginTop: '10px',
-                        marginBottom: '10px'
-                    }}>
-                        Fechar
-                    </button>
-                </div>
-            )}
+                        <h3 style={{ marginBottom: '20px' }}>{selectedEvento.descricao}</h3>
+                        <p style={{ marginBottom: '10px' }}><strong>Autores:</strong> {selectedEvento.autores}</p>
+                        <p style={{ marginBottom: '10px' }}><strong>Publicação:</strong> {selectedEvento.publicacao}</p>
+                        <p style={{ marginBottom: '10px' }}><strong>Tipo:</strong> {selectedEvento.tipo}</p>
+                        <button onClick={openMoreInfo} style={{
+                            background: '#E3A237',
+                            color: '#fff',
+                            border: 'none',
+                            padding: '10px 15px',
+                            borderRadius: '5px',
+                            cursor: 'pointer',
+                            marginTop: '10px',
+                            marginRight: '5px'
+                        }}>
+                            Mais informações
+                        </button>
+                        <button onClick={closePanel} style={{
+                            background: '#E3A237',
+                            color: '#fff',
+                            border: 'none',
+                            padding: '10px 15px',
+                            borderRadius: '5px',
+                            cursor: 'pointer',
+                            marginTop: '10px',
+                            marginBottom: '10px'
+                        }}>
+                            Fechar
+                        </button>
+                    </div>
+                )}
+            </div>
 
+            {/* Modal de Mais Informações */}
             {showMoreInfo && selectedEvento && (
                 <div style={{
-                    position: 'absolute',
+                    marginTop: '20px',
                     background: 'rgba(255, 255, 255, 0.9)',
                     border: '1px solid #E3A237',
                     borderRadius: '8px',
                     padding: '20px',
-                    marginTop: '10px',
-                    marginBottom: '10px',
-                    marginLeft: '320px',
-                    zIndex: 10,
-                    width: '400px',
+                    width: '100%',
                     boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)',
                 }}>
                     <h3 style={{ marginBottom: '20px' }}>Mais Informações sobre {selectedEvento.descricao}</h3>
@@ -512,3 +509,4 @@ const LinhaDoTempo = () => {
 };
 
 export default LinhaDoTempo;
+
