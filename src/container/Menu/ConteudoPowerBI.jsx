@@ -12,7 +12,7 @@ const ConteudoPowerBI = () => {
       <iframe
         title="Relatório Power BI"
         src="https://app.powerbi.com/view?r=eyJrIjoiNWJkM2JhM2EtNzRlZC00MmRhLTg0NjYtOWUzMzgwYjc2NTNhIiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9&pageName=f042beb5da0b98a1697d"
-        style={{ width: '1300px', height: '800px' }}
+        style={{ width: '900px', height: '600px' }}
       ></iframe>
     );
   };
