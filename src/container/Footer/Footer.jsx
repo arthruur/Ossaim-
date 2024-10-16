@@ -13,11 +13,17 @@ const Footer = () => (
 
       <div className='app__footer-links_contact'>
         <h1 className='app__footer-headtext'> Entre em contato </h1>
-        <p className='p__opensans'>Natan Ourives - Pesquisador</p>
+        <p className='p__opensans'>Prof. Dr. Natan Ourives (UEFS) - Pesquisador </p>
         <p className='p__opensans'>nsourives@uefs.br</p>
+        <p className='p__opensans'>Profa Dra. Diana Santiago da Fonseca (UFBA) - Orientadora
+        </p>
+        <p className='p__opensans'>disant@ufba.br</p>
         <p className='p__opensans'>Arthur Teles - Desenvolvedor </p>
         <p className='p__opensans'>arthurnoyesit@gmail.com</p>
-        <p className='p__opensans'></p>
+        <p className='p__opensans'>Prof. Dr. Patrick Lima - Identidade Visual</p>
+        <p className='p__opensans'>patamorimlima@gmail.com</p>
+
+
 
       </div>
 

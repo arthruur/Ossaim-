@@ -12,7 +12,6 @@ const CensosDropdown = () => {
       case 'inep_2014_2020':
         return (
           <div>
-            {/* Inserir layout correspondente ao INEP aqui */}
           </div>
         );
       case 'censo_ibge_2022_geral':
@@ -26,7 +25,6 @@ const CensosDropdown = () => {
       case 'censo_ibge_2010_deficiencias':
         return (
           <div>
-            {/* Inserir função generate_censo2010_layout aqui */}
           </div>
         );
       case 'geocapes':

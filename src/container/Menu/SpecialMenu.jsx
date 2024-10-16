@@ -11,7 +11,8 @@ import Tese from './Tese';
 import Pesquisa from './Pesquisa';
 import Cartografias from './Cartografias';
 import ManuaisInternacionais from './ManuaisInternacionais'; 
-import Observatorio from './Observatório';
+import Organizações from './Organizações';
+import Nacionais from './Nacionais'
 
 const SpecialMenu = () => {
   const [activeTab, setActiveTab] = useState('dados-publicos');
@@ -23,7 +24,7 @@ const SpecialMenu = () => {
       case 'dados-estatisticos':
         return <ConteudoPowerBI />;
       case 'externo':
-        return <div>Descrição das Associações, Eventos, Congressos, Encontros, Revistas e Link para os eventos: ANNPOM, ABEM, ABCM</div>;
+        return <div><Organizações /></div>;
       case 'abpemei':
         return <div>Conteúdos presentes nessa aba: Associação Brasileira de Pesquisa em Educação Musical Especial e Inclusiva, I Congresso Nacional da ABPEMEI, Anais do I Congresso Nacional da ABPEMEI, Revista Ossaim,ANNPOM, ABEM, ABCM </div>;
       case 'estado-da-arte-educacao':
@@ -33,7 +34,7 @@ const SpecialMenu = () => {
       case 'cartografias':
           return <div> <Cartografias /></div>
       case 'nacional': 
-        return <div> Essa aba fornece acesso ao manual: Protocolo para Diagnóstico Etiológico da Deficiência Intelectual</div>
+        return <div> <Nacionais /> </div>
       case 'internacional': 
         return <div> <ManuaisInternacionais /> </div>
       case 'direitos-humanos': 
@@ -66,7 +67,7 @@ const SpecialMenu = () => {
         <li onClick={() => setActiveTab('dados-estatisticos')} className={activeTab === 'dados-estatisticos' ? 'active' : ''}> Dados Musicais</li>
         <li onClick={() => setActiveTab('linha-do-tempo')} className={activeTab === 'linha-do-tempo' ? 'active' : ''}>Linha do Tempo</li>
         <li onClick={() => setActiveTab('principais-resultados')} className={activeTab === 'principais-resultados' ? 'active' : ''}>Principais Resultados</li>
-        <li onClick={() => setActiveTab('externo')} className={activeTab === 'externo' ? 'active' : ''}>Produções Nacionais</li>
+        <li onClick={() => setActiveTab('externo')} className={activeTab === 'externo' ? 'active' : ''}> Organizações Nacionais</li>
         <li onClick={() => setActiveTab('cartografias')} className={activeTab === 'cartografias' ? 'active' : ''}>Cartografias</li>
         <li onClick={() => setActiveTab('direitos-humanos')} className={activeTab === 'direitos-humanos' ? 'active' : ''}>Legislação e Políticas</li>
         <li onClick={() => setActiveTab('nacional')} className={activeTab === 'nacional' ? 'active' : ''}>Manuais Nacionais</li>

@@ -9,11 +9,14 @@ const ConteudoPowerBI = () => {
 
   const renderCensoContent = () => {
     return (
+    <div>
+        <h1 style={{textAlign: 'center', marginBottom:'20px'}} className='p__opensans'>Protocolos e Diretrizes da Deficiência Intelectual no Brasil</h1>
       <iframe
         title="Relatório Power BI"
-        src="https://app.powerbi.com/view?r=eyJrIjoiNWJkM2JhM2EtNzRlZC00MmRhLTg0NjYtOWUzMzgwYjc2NTNhIiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9&pageName=f042beb5da0b98a1697d"
+        src="https://drive.google.com/file/d/1y3CXKnKU-WOwKwrJoD5bsGKdMdQzUAnz/preview"
         style={{ width: '1300px', height: '800px' }}
       ></iframe>
+    </div> 
     );
   };
 
