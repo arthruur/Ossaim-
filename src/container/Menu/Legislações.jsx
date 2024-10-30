@@ -10,7 +10,7 @@ const Legislação = () => {
   const renderResultadosContent = () => {
     return (
     
-    <iframe src="https://drive.google.com/file/d/1WB-dIWFs8iWIJpfaMnkAWdzjsT8S2JLg/preview"
+    <iframe src="https://app.powerbi.com/view?r=eyJrIjoiYWQzNTNmZTAtZDY3OS00YmE4LThiYjEtODNlNjI2YTQ2MmVkIiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9"
     style={{ width: '1100px', height: '600px' }}
     >
 

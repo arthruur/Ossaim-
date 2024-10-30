@@ -41,30 +41,70 @@ const ManuaisInternacionais = () => {
             style={{ width: '100%', height: '600px' }}
           ></iframe>
         );
-        case 'oms':
-            return (
-              <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
-                <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
-                  O site da OMS não permite incorporação direta de conteúdo.
-                </p>
-                <p style={{ fontSize: '14px', marginBottom: '12px' }}>
-                  Para acessar as classificações e padrões da OMS, clique no link abaixo:
-                </p>
-                <a
-                  href="https://www.who.int/standards/classifications/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
-                >
-                  Visitar o site da OMS
-                </a>
-              </div>
-            );
-          case 'apa_dictionary':
+      case 'oms':
+        return (
+          <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
+            <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
+              O site da OMS não permite incorporação direta de conteúdo.
+            </p>
+            <p style={{ fontSize: '14px', marginBottom: '12px' }}>
+              Para acessar as classificações e padrões da OMS, clique no link abaixo:
+            </p>
+            <a
+              href="https://www.who.int/standards/classifications/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
+            >
+              Visitar o site da OMS
+            </a>
+          </div>
+        );
+      case 'apa_dictionary':
         return (
           <iframe
             title="APA Dictionary of Psychology"
             src="https://dictionary.apa.org/"
+            style={{ width: '100%', height: '600px' }}
+          ></iframe>
+        );
+      case 'unicef':
+        return (
+          <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
+            <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
+              Visite o site da UNICEF para acessar informações sobre deficiência:
+            </p>
+            <a
+              href="https://www.unicef.org/disabilities"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
+            >
+              UNICEF
+            </a>
+          </div>
+        );
+      case 'washington-group':
+        return (
+          <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
+            <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
+              Visite o site do Washington Group Disability para mais informações:
+            </p>
+            <a
+              href="https://www.washingtongroup-disability.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
+            >
+              Washington Group Disability
+            </a>
+          </div>
+        );
+      case 'united-nations':
+        return (
+          <iframe
+            title="United Nations Statistical Commission"
+            src="https://unstats.un.org/UNSDWebsite/statcom/"
             style={{ width: '100%', height: '600px' }}
           ></iframe>
         );
@@ -92,7 +132,9 @@ const ManuaisInternacionais = () => {
         <option value="cid11">CID 11</option>
         <option value="cif">CIF</option>
         <option value="oms">OMS</option>
-        <option value="apa_dictionary">APA Dictionary of Psychology</option>
+        <option value="unicef">UNICEF</option>
+        <option value="washington-group">Washington Group Disability</option>
+        <option value="united-nations">United Nations Statistical Commission</option>
       </select>
       <div style={{ margin: '5px 0px', padding: '0.5rem', fontSize: '14px' }}>{renderManualContent()}</div>
     </div>
