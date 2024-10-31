@@ -108,7 +108,23 @@ const ManuaisInternacionais = () => {
             style={{ width: '100%', height: '600px' }}
           ></iframe>
         );
-      default:
+        case 'unesco':
+          case 'unesco':
+            return (
+              <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
+                <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
+                  Visite o site da UNESCO para mais informações:
+                </p>
+                <a
+                  href="https://unesdoc.unesco.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
+                >
+                  UNESCO
+                </a>
+              </div>
+            );      default:
         return (
           <div style={{ fontWeight: '700', fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
             <p>Selecione um dos manuais internacionais para visualizar os detalhes.</p>
@@ -133,6 +149,7 @@ const ManuaisInternacionais = () => {
         <option value="cif">CIF</option>
         <option value="oms">OMS</option>
         <option value="unicef">UNICEF</option>
+        <option value="unesco">UNESCO</option>
         <option value="washington-group">Washington Group Disability</option>
         <option value="united-nations">United Nations Statistical Commission</option>
       </select>
