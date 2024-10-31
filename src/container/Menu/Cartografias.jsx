@@ -29,7 +29,7 @@ const Cartografias = () => {
 
         <div>
           <a
-            href="https://www.educacion.gob.es/teseo/mostrarRef.do?ref=1791579"
+            href="https://minerva.usc.es/xmlui/handle/10347/20495"
             className="p__cormorant"
             style={{ color: '#E3A237', textDecoration: 'underline' }}
           >

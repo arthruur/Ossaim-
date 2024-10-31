@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Pesquisa = () => {
+  const [selectedCenso, setSelectedCenso] = useState('');
+
+  const handleCensoChange = (event) => {
+    setSelectedCenso(event.target.value);
+  };
+
   const renderResultadosContent = () => {
     return (
-      <video width="1000" height="600" controls>
-        <source src="" type="video/mp4" />
-        Seu navegador não suporta a tag de vídeo.
-      </video>
+    
+    <iframe src="https://drive.google.com/file/d/1KbqyZDITLvsbdV62Z9lZMmcjfJaBnYdH/preview"
+    style={{ width: '1000px', height: '600px' }}
+    >
+
+    </iframe>
     );
   };
 

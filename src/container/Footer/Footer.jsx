@@ -22,9 +22,6 @@ const Footer = () => (
         <p className='p__opensans'>arthurnoyesit@gmail.com</p>
         <p className='p__opensans'>Prof. Dr. Patrick Lima - Identidade Visual</p>
         <p className='p__opensans'>patamorimlima@gmail.com</p>
-        <p className='p__opensans'>Dra. Lucila Plácido - Consultora Jurídica</p>
-        <p className='p__opensans'>lucilaplacido@gmail.com </p>
-
 
 
 

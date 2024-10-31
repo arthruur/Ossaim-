@@ -41,26 +41,26 @@ const ManuaisInternacionais = () => {
             style={{ width: '100%', height: '600px' }}
           ></iframe>
         );
-      case 'oms':
-        return (
-          <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
-            <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
-              O site da OMS não permite incorporação direta de conteúdo.
-            </p>
-            <p style={{ fontSize: '14px', marginBottom: '12px' }}>
-              Para acessar as classificações e padrões da OMS, clique no link abaixo:
-            </p>
-            <a
-              href="https://www.who.int/standards/classifications/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
-            >
-              Visitar o site da OMS
-            </a>
-          </div>
-        );
-      case 'apa_dictionary':
+        case 'oms':
+            return (
+              <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
+                <p style={{ fontWeight: 'bold', fontSize: '20px', marginBottom: '20px' }}>
+                  O site da OMS não permite incorporação direta de conteúdo.
+                </p>
+                <p style={{ fontSize: '14px', marginBottom: '12px' }}>
+                  Para acessar as classificações e padrões da OMS, clique no link abaixo:
+                </p>
+                <a
+                  href="https://www.who.int/standards/classifications/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ fontSize: '16px', textDecoration: 'underline', color: '#3498DB' }}
+                >
+                  Visitar o site da OMS
+                </a>
+              </div>
+            );
+          case 'apa_dictionary':
         return (
           <iframe
             title="APA Dictionary of Psychology"
@@ -68,6 +68,7 @@ const ManuaisInternacionais = () => {
             style={{ width: '100%', height: '600px' }}
           ></iframe>
         );
+<<<<<<< HEAD
       case 'unicef':
         return (
           <div style={{ fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
@@ -125,6 +126,9 @@ const ManuaisInternacionais = () => {
                 </a>
               </div>
             );      default:
+=======
+      default:
+>>>>>>> parent of 1ec30f1 (modificações nos relatórios e adição da aba DI e manuais internacionais)
         return (
           <div style={{ fontWeight: '700', fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237' }}>
             <p>Selecione um dos manuais internacionais para visualizar os detalhes.</p>
@@ -148,10 +152,14 @@ const ManuaisInternacionais = () => {
         <option value="cid11">CID 11</option>
         <option value="cif">CIF</option>
         <option value="oms">OMS</option>
+<<<<<<< HEAD
         <option value="unicef">UNICEF</option>
         <option value="unesco">UNESCO</option>
         <option value="washington-group">Washington Group Disability</option>
         <option value="united-nations">United Nations Statistical Commission</option>
+=======
+        <option value="apa_dictionary">APA Dictionary of Psychology</option>
+>>>>>>> parent of 1ec30f1 (modificações nos relatórios e adição da aba DI e manuais internacionais)
       </select>
       <div style={{ margin: '5px 0px', padding: '0.5rem', fontSize: '14px' }}>{renderManualContent()}</div>
     </div>
