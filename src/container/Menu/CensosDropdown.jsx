@@ -26,7 +26,7 @@ const CensosDropdown = () => {
         return (
           <iframe
           title="Censo IBGE 2010 Deficiências"
-          src="https://app.powerbi.com/view?r=eyJrIjoiYTZhZmNjOTMtM2QxYy00MDE3LWE0OTctYTY2ZGY3OWJjODEwIiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9&pageName=f042beb5da0b98a1697d"
+          src="https://app.powerbi.com/view?r=eyJrIjoiMGI4NDQ3NDgtM2UzYy00ODgzLThmYmMtNmQ4NmI5MGRiOGU5IiwidCI6IjY5NmQxOWU0LWZjNzUtNGU4NS05MzdlLWU1M2UwNmFlNWYzYiJ9&pageName=f042beb5da0b98a1697d"
           style={{ width: '100%', height: '600px' }}
         ></iframe>
 
