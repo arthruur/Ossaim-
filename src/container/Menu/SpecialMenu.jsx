@@ -49,8 +49,6 @@ const SpecialMenu = () => {
         return <div> <Legislações />.</div>;
       case 'principais-resultados':
         return <PrincipaisResultados />;
-      case 'tese':
-        return <div><Tese /> </div>;
       case 'bibliografia':
         return <div>Ao fim da pesquisa aqui ficaram as referências bibliográficas.</div>;
       case 'linha-do-tempo':
@@ -95,7 +93,6 @@ const SpecialMenu = () => {
         <li onClick={() => setActiveTab('direitos-humanos')} className={activeTab === 'direitos-humanos' ? 'active' : ''}>Legislação e Políticas</li>
         <li onClick={() => setActiveTab('nacional')} className={activeTab === 'nacional' ? 'active' : ''}>Manuais Nacionais</li>
         <li onClick={() => setActiveTab('internacional')} className={activeTab === 'internacional' ? 'active' : ''}>Manuais Internacionais</li>
-        <li onClick={() => setActiveTab('tese')} className={activeTab === 'tese' ? 'active' : ''}>Tese</li>
         <li onClick={() => setActiveTab('abpemei')} className={activeTab === 'abpemei' ? 'active' : ''}>ABPEMEI</li>
       </ul>
       
