@@ -6,9 +6,27 @@
     font-family: var(--font-base);
     color: var(--color-white);
     text-transform: camel-case;
-    line-height: 90px;
-    font-size: 80px;
+    line-height: 80px;
+    font-size: 50px;
 }  
+
+.app__header-h2 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    text-transform: camel-case;
+    line-height: 90px;
+    font-size: 50px;
+}  
+
+
+.app__header-h2 {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    text-transform: camel-case;
+    line-height: 90px;
+    font-size: 40px;
+}  
+
 
 .app__header-img img{
     width: 80%;
@@ -30,3 +48,14 @@
     font-weight: 500;
     font-size: large;
 }
+
+ .first-letter-highlight {
+
+
+color: #e3a237; /* Ou use sua variável: var(--color-golden) */
+
+font-size: 70px;
+
+}
+
+
