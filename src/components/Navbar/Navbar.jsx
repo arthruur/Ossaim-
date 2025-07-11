@@ -12,16 +12,11 @@ const Navbar = () => {
     </div>
 
     <ul className='app-navbarLinks'> 
-      <li className='p__quicksand'><a href='#home'>Início</a></li>
-      <li className='p__quicksand'><a href='#about'>Sobre</a></li>
-      <li className='p__quicksand'><a href='#menu'>Estatísticas</a></li>
-      <li className='p__quicksand'><a href='#awards'>Possibilidades Futuras</a></li>
+      <li className='p__quicksand'><a href='#home'>Como usar a plataforma?</a></li>
     </ul>
   
    <div className='app__navbar-login'>
-      <a href='#login' className='p__quicksand'>Login / Registre-se</a>
-      <div />
-      <a href='/' className='p__quicksand'> Inclua-se</a>
+     <a href='/' className='p__quicksand'> Contribua conosco</a>
     </div>
     <div className='app__navbar-smallscreen'>
       <GiHamburgerMenu color= 'fffbeb' fontSize={27} onClick={() => setToggleMenu(true)}/>
