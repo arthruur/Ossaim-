@@ -80,7 +80,7 @@ const SpecialMenu = () => {
     <div className='app__specialMenu flex__center section__padding' id='menu'>
       <div className='app__specialMenu-title'>
         <h1 className='headtext__cormorant' style={{ textTransform: 'none' }}>
-          História e Estado Colaborativo da Arte da Pesquisa em EMPDIC.
+          História e Estado Colaborativo da Arte da Pesquisa em ABPEMIAA.
         </h1>
       </div>
       
