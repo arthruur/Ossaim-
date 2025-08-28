@@ -97,7 +97,7 @@ const SpecialMenu = () => {
         <li onClick={() => setActiveTab('direitos-humanos')} className={activeTab === 'direitos-humanos' ? 'active' : ''}>Legislação e Políticas</li>
         <li onClick={() => setActiveTab('nacional')} className={activeTab === 'nacional' ? 'active' : ''}>Manuais Nacionais</li>
         <li onClick={() => setActiveTab('internacional')} className={activeTab === 'internacional' ? 'active' : ''}>Manuais Internacionais</li>
-        <li onClick={() => setActiveTab('abpemei')} className={activeTab === 'abpemei' ? 'active' : ''}>ABPEMEI</li>
+        <li onClick={() => setActiveTab('abpemei')} className={activeTab === 'abpemei' ? 'active' : ''}>ABPEMIAA</li>
       </ul>
       
       <div className='app__specialMenu-content'>
