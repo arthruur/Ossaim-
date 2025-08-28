@@ -69,8 +69,6 @@ const CensosDropdown = () => {
       default:
         return (
           <div style={{ fontWeight: '700',fontSize: '16px', textAlign: 'center', marginTop: '20px', padding: '0.4rem', color: '#E3A237'}}>
-            <p>É importante ressaltar que o IBGE, em 2022, ignorou bastante a questão da Deficiência. Sobre isso iremos encontrar dados em notícias fora do IBGE.</p>
-            <p>.</p>
             <p>.</p>
             <p>IMPORTANTE: Ao acessar o INEP, para ver dados sobre Educação Especial, vá em Categorias e Características e coloque Educação Especial</p>
          
